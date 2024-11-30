@@ -1,20 +1,12 @@
-import './App.css';
-
-import Form from "./component/FormComponent/Form"
-
-
-
+import React from 'react';
+import Reduxmain from './component/Redux/Reduxmain';
 
 function App() {
-
-
- 
-  
   return (
-   <div>
-      <Form />
-   </div>
-  );
+    <>
+        <Reduxmain />
+    </>
+  )
 }
 
-export default App;
+export default App
